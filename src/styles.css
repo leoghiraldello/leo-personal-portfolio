@@ -339,6 +339,10 @@ form button:hover {
     .right-column {
         padding-right: 20px;
     }
+
+    .developer {
+        font-size: 14px;
+    }
 }
 
 
