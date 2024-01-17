@@ -174,8 +174,13 @@ a:hover {
     width: 50%;
 }
 
-.work-details td {
-    padding: 30px;
+.work-details a {
+    margin: 0;
+    color: #1167b1;
+}
+
+.industry {
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -183,8 +188,8 @@ a:hover {
         width: 80%;
     }
 
-    .work-details td {
-        padding: 5px;
+    .industry {
+        margin-top: 20px;
     }
 }
 
@@ -203,14 +208,39 @@ a:hover {
     border-radius: 50%;
     margin: 40px 10px 10px 10px;
 }
+
 .sub-pages-footer {
-    position: fixed;
+    position: relative;
+    margin-top: 60px;
+}
+
+.sub-pages-footer ul {
+    background-color: #1167b1;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sub-pages-footer ul a img {
+    padding: 5px;
+    width: 55px;
+}
+
+.sub-pages-footer ul a img:hover {
+    transform: scale(1.1);
 }
 
 
 @media only screen and (max-width: 600px) {
     .sub-pages-footer {
-        position: relative;
+        margin-top: 40px;
+    }
+
+    .sub-pages-footer ul {
+        padding: 5px;
+    }
+
+    .sub-pages-footer ul a img {
+        width: 40px;
     }
 }
 
