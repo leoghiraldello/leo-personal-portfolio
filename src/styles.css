@@ -172,6 +172,7 @@ a:hover {
 
 .work-details {
     width: 50%;
+    text-align: justify;
 }
 
 .work-details a {
